@@ -1,6 +1,8 @@
 package com.example.studentloans;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.view.View;
 
 
@@ -10,6 +12,9 @@ import java.util.*;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,8 +22,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void hey(View v){
-        System.out.print("hey");
+
+
+    public void tuition(View v){
+        Intent intent = new Intent(this, tuitonActivity.class);
+        startActivity(intent);
+    }
+
+    public void budget(View v){
+        Intent intent = new Intent(this, budgetActivity.class);
+        startActivity(intent);
     }
 
     public static void main(String[] args) {
