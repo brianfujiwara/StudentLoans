@@ -13,6 +13,7 @@ public class tuitionActivity extends AppCompatActivity{
     public double tuition;
 
 
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tuition);
