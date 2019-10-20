@@ -3,6 +3,7 @@ package com.example.studentloans;
 import android.content.Intent;
 import android.view.View;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
@@ -22,6 +23,8 @@ public class candyActivity extends tuitionActivity {
 
     private TextView textBox;
 
+    private ImageView im;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_candy2);
@@ -35,20 +38,33 @@ public class candyActivity extends tuitionActivity {
         twinkie = findViewById(R.id.twinkies);
 
         textBox = findViewById(R.id.textView4);
+
+        im = findViewById(R.id.imageView);
     }
 
 
     public void enterCandy(View v){
-        if(snickers.isChecked())
+        if(snickers.isChecked()) {
             theKey = "snickers";
-        else if(mm.isChecked())
+            im.setImageResource(R.drawable.snickers);
+        }
+        else if(mm.isChecked()) {
             theKey = "mm";
-        else if(sour.isChecked())
+            im.setImageResource(R.drawable.mm);
+        }
+        else if(sour.isChecked()) {
             theKey = "sourpatch";
-        else if(nerd.isChecked())
+            im.setImageResource(R.drawable.sourpatch);
+        }
+        else if(nerd.isChecked()) {
             theKey = "nerds";
-        else
+            im.setImageResource(R.drawable.nerds);
+        }
+        else {
             theKey = "twinkies";
+            im.setImageResource(R.drawable.twinkies);
+        }
+
 
         this.dispEquiv();
     }

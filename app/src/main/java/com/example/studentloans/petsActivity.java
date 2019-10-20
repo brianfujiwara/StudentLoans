@@ -3,6 +3,7 @@ package com.example.studentloans;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
@@ -12,6 +13,7 @@ public class petsActivity extends tuitionActivity {
     public double tuition;
 
     private TextView tb;
+    private ImageView im;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,7 @@ public class petsActivity extends tuitionActivity {
         setHashVals();
 
         tb = findViewById(R.id.output);
+        im = findViewById(R.id.imageView);
 
     }
 
@@ -65,23 +68,35 @@ public class petsActivity extends tuitionActivity {
         String clicked = " ";
         switch (v.getId()) {
             case R.id.rabbit:
-                if (checked)
+                if (checked){
                     theKey = "rabbit";
+                    im.setImageResource(R.drawable.rabbit);
+                }
                 break;
             case R.id.bird:
-                if (checked)
+                if (checked) {
                     theKey = "bird";
+                    im.setImageResource(R.drawable.bird);
+                }
                 break;
             case R.id.cat:
-                if (checked)
+                if (checked) {
                     theKey = "cat";
+                    im.setImageResource(R.drawable.cat);
+                }
                 break;
             case R.id.hamster:
-                if (checked)
+                if (checked) {
                     theKey = "hamster";
+                    im.setImageResource(R.drawable.hamster);
+                }
+                break;
             case R.id.dog:
-                if (checked)
+                if (checked) {
                     theKey = "dog";
+                    im.setImageResource(R.drawable.dog);
+                }
+
 
         }
 
