@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
 //        lifestyle.put("1br", 1076.00f);
 //        lifestyle.put("2br", 1265.00f);
 //        lifestyle.put("3br", 1618.00f);
-        //*add single family??
 
 
         //drop-down menu with top 10 most common jobs for college graduates, which are stored in a hash map
@@ -56,16 +54,16 @@ public class MainActivity extends AppCompatActivity {
 //    public static void(String[]args){
 //            HashMap<String, Float> incomes = new Hashmap<String, Float>();
 //
-//            incomes.put("Data Analyst", 60000.00);
-//            incomes.put("Account Manager", 50000.00);
-//            incomes.put("Research Assistant", 28855.00);
-//            incomes.put("Financial Analyst", 59300.00);
-//            incomes.put("Sales Associate", 38000.00);
-//            incomes.put("Case Manager", 60000.00);
-//            incomes.put("Social Media Manager", 44000.00);
-//            incomes.put("Teaching Assistant", 20000.00);
-//            incomes.put("Software Engineer", 90000.00);
-//            incomes.put("Administrative Assistant", 40000.00);
+//            incomes.put("Data Analyst", 60000.00f);
+//            incomes.put("Account Manager", 50000.00f);
+//            incomes.put("Research Assistant", 28855.00f);
+//            incomes.put("Financial Analyst", 59300.00f);
+//            incomes.put("Sales Associate", 38000.00f);
+//            incomes.put("Case Manager", 60000.00f);
+//            incomes.put("Social Media Manager", 44000.00f);
+//            incomes.put("Teaching Assistant", 20000.00f);
+//            incomes.put("Software Engineer", 90000.00f);
+//            incomes.put("Administrative Assistant", 40000.00f);
 //
     }
 
