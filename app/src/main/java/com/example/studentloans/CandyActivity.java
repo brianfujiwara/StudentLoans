@@ -16,8 +16,9 @@ public class CandyActivity extends AppCompatActivity {
     RadioButton sourpatch;
     RadioButton tom;
 
-    private int total;
 
+    private double total;
+    private double sum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,13 @@ public class CandyActivity extends AppCompatActivity {
         twinkie = findViewById(R.id.TwinkieButton);
         snicker = findViewById(R.id.SnickersButton);
         sourpatch = findViewById(R.id.sourPackButton);
+
+
+
+        Intent intent = getIntent();
+
+        total = intent.getDoubleExtra("tuition", 0);
+
 
     }
 
@@ -46,18 +54,21 @@ public class CandyActivity extends AppCompatActivity {
 
         if (tom == twinkie){
 
-
+            sum = total *10;
 
         }else if (tom == snicker){
 
+            sum = total * 0.5;
 
         }else {
-
+            sum = total * .75;
 
         }
 
 
-
+Intent sumTotla = new Intent(this, TotalActivity.class);
+      sumTotla.putExtra("sum",sum);
+        startActivity(sumTotla);
 
 
 
