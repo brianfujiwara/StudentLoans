@@ -42,7 +42,8 @@
             android:layout_height="wrap_content"
             android:onClick="enterCandy"
             android:text="Snickers" />
-        //android: onClick = "madeChoice"
+            android: onClick = "madeChoice"
+            android: onClick = "madeChoice"
 
         <RadioButton
             android:id="@+id/nerds"

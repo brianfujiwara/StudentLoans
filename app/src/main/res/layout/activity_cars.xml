@@ -15,12 +15,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <RadioButton
             android:id="@+id/radioButton12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="enterCars"
             android:text="2019 Honda Civic" />
+
 
         <RadioButton
             android:id="@+id/radioButton14"
@@ -42,6 +44,7 @@
             android:layout_height="wrap_content"
             android:onClick="enterCars"
             android:text="2019 Chevy Silverado" />
+      
     </RadioGroup>
 
     <TextView
@@ -84,5 +87,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
