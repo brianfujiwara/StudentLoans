@@ -16,7 +16,6 @@
         android:gravity="center"
         android:inputType="textPersonName"
         android:text="Choose a Pet"
-        android:textSize="30"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,8 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Bunny"
-            android:textSize="20" />
+            android:text="Bunny" />
 
         <RadioButton
             android:id="@+id/radioButton7"
@@ -47,28 +45,28 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="Bird"
-            android:textSize="20" />
+         />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cat"
-            android:textSize="20" />
+             />
 
         <RadioButton
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hamster"
-            android:textSize="20" />
+             />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dog"
-            android:textSize="20" />
+            />
     </RadioGroup>
 
     <Button
@@ -76,7 +74,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter"
-        android:textSize="20"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

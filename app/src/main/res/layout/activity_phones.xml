@@ -16,7 +16,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="Choose a phone"
-            android:textSize="30"
+
             tools:layout_editor_absoluteX="26dp"
             tools:layout_editor_absoluteY="85dp" />
 
@@ -37,14 +37,14 @@
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="Apple 11 Pro Max"
-                android:textSize="20" />
+              />
 
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Samsung S 10"
-                android:textSize="20" />
+           />
         </RadioGroup>
 
         <Button

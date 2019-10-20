@@ -9,21 +9,22 @@
 
     <EditText
         android:id="@+id/yearsToRepay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="188dp"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Enter # Years to Repay"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/loanAmount" />
 
     <EditText
         android:id="@+id/loanAmount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_width="189dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Enter Loan Amount"
         android:inputType="numberDecimal"
@@ -31,16 +32,97 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/futureCareer"
-        android:layout_width="160dp"
-        android:layout_height="42dp"
-        android:layout_marginEnd="224dp"
-        android:layout_marginRight="224dp"
-        android:layout_marginBottom="409dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Your future career"
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="314dp"
+        android:layout_height="366dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <RadioButton
+            android:id="@+id/radioButton44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Analyst" />
+
+        <RadioButton
+            android:id="@+id/radioButton45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Manager" />
+
+        <RadioButton
+            android:id="@+id/radioButton46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Research Assistant" />
+
+        <RadioButton
+            android:id="@+id/radioButton47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Financial Analyst" />
+
+        <RadioButton
+            android:id="@+id/radioButton48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sales Associate" />
+
+        <RadioButton
+            android:id="@+id/radioButton49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Case Manager" />
+
+        <RadioButton
+            android:id="@+id/radioButton50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social Media Manager" />
+
+        <RadioButton
+            android:id="@+id/radioButton51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teaching Assistant" />
+
+        <RadioButton
+            android:id="@+id/radioButton52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software Engineer" />
+
+        <RadioButton
+            android:id="@+id/radioButton53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Administrative Assistant" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="moneyForLoansPerMonth"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup7"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Career"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yearsToRepay" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
