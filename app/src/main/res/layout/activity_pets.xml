@@ -7,6 +7,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Choose a Pet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="113dp"
@@ -20,9 +36,9 @@
             android:id="@+id/rabbit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:checked="false"
-            android:onClick="enterPets"
-            android:text="Rabbit" />
+
+            android:checked="true"
+            android:text="Bunny" />
 
         <RadioButton
             android:id="@+id/bird"
@@ -30,6 +46,8 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="Bird"
+
+         />
             android:onClick="enterPets"/>
 
         <RadioButton
@@ -37,6 +55,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cat"
+
+             />
+
             android:onClick="enterPets"/>
 
         <RadioButton
@@ -44,6 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hamster"
+             />
             android:onClick="enterPets"/>
 
         <RadioButton
@@ -51,15 +73,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dog"
+            />
             android:onClick="enterPets"/>
+
+      
     </RadioGroup>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
+
+        android:layout_height="wrap_content"
+        android:text="Enter"
+
         android:layout_marginBottom="70dp"
         android:text="Move On"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

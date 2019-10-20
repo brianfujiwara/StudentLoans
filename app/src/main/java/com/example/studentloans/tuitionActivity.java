@@ -17,6 +17,7 @@ public class tuitionActivity extends AppCompatActivity{
     public Intent storeTuition;
 
 
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tuition);
