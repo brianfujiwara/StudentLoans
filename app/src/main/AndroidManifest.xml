@@ -15,6 +15,7 @@
         <activity android:name=".carsActivity"></activity>
         <activity android:name=".petsActivity"></activity>
         <activity android:name=".phonesActivity"></activity>
+        <activity android:name=".resultOfLoanActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
