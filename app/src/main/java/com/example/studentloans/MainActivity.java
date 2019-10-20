@@ -61,13 +61,13 @@ public class MainActivity extends AppCompatActivity {
         incomes.put("Data Analyst", 60000.00);
         incomes.put("Account Manager", 50000.00);
         incomes.put("Research Assistant", 28855.00);
-        incomes.put("Financial Analyst", 59300);
-        incomes.put("Sales Associate", 38000);
-        incomes.put("Case Manager", 60000);
-        incomes.put("Social Media Manager", 44000);
-        incomes.put("Teaching Assistant", 20000);
-        incomes.put("Software Engineer", 90000);
-        incomes.put("Administrative Assistant", 40000);
+        incomes.put("Financial Analyst", 59300.00);
+        incomes.put("Sales Associate", 38000.00);
+        incomes.put("Case Manager", 60000.00);
+        incomes.put("Social Media Manager", 44000.00);
+        incomes.put("Teaching Assistant", 20000.00);
+        incomes.put("Software Engineer", 90000.00);
+        incomes.put("Administrative Assistant", 40000.00);
     }
 
     public static int
