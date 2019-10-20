@@ -32,10 +32,20 @@ public class tuitionActivity extends AppCompatActivity{
 
         tuition = Double.parseDouble(tuitiontest);
 
+        storeTuition = new Intent(this, carsActivity.class);
+
+        storeTuition.putExtra("tuition", tuition);
+        startActivity(storeTuition);
+
         storeTuition = new Intent(this, candyActivity.class);
 
         storeTuition.putExtra("tuition", tuition);
         startActivity(storeTuition);
+
+
+
+
+
 
     }
 }

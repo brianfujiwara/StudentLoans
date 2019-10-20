@@ -55,6 +55,23 @@ public class candyActivity extends AppCompatActivity {
 
         this.dispEquiv();
     }
+    //
+    /*
+    public void madeChoice(View v){
+        if(snickers.isChecked())
+            theKey = "snickers";
+        else if(mm.isChecked())
+            theKey = "mm";
+        else if(sour.isChecked())
+            theKey = "sourpatch";
+        else if(nerd.isChecked())
+            theKey = "nerds";
+        else
+            theKey = "twinkies";
+
+        this.dispEquiv();
+    }
+     */
 
 
     private HashMap<String, Float> itemCost;
@@ -64,6 +81,11 @@ public class candyActivity extends AppCompatActivity {
         Intent intent = getIntent();
         tuition = intent.getDoubleExtra("tuition",0);
         textBox.setText("Your tuition is about equal to "+(Math.round(tuition/(itemCost.get(theKey))))+" "+theKey);
+    }
+
+    public void toCars(View v){
+        Intent intent = new Intent(this, carsActivity.class);
+        startActivity(intent);
     }
 
     public void setHashVals(){
