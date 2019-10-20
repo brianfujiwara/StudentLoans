@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <EditText
             android:id="@+id/editText11"
             android:layout_width="wrap_content"
@@ -20,45 +21,64 @@
             tools:layout_editor_absoluteX="26dp"
             tools:layout_editor_absoluteY="85dp" />
 
+
         <RadioGroup
             android:id="@+id/radioGroup2"
-            android:layout_width="239dp"
-            android:layout_height="170dp"
-            android:layout_marginTop="69dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="153dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="150dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText11"
-            app:layout_constraintVertical_bias="0.0">
+            app:layout_constraintTop_toTopOf="parent">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/apple"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:text="Apple 11 Pro Max"
-              />
+
+                android:checked="false"
+                android:text="Apple 11 Pro Max" />
+
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Samsung S 10"
-           />
+
+                android:text="Samsung S 10" />
+
         </RadioGroup>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="113dp"
-            android:text="Enter"
+            android:layout_marginBottom="70dp"
+            android:text="Move On"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Pick a phone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
-            app:layout_constraintVertical_bias="0.141" />
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
