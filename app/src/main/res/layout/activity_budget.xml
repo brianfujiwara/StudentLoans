@@ -11,7 +11,7 @@
         android:id="@+id/yearsToRepay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="188dp"
         android:ems="10"
         android:hint="Enter # Years to Repay"
         android:inputType="number"
@@ -30,4 +30,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/futureCareer"
+        android:layout_width="160dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginRight="224dp"
+        android:layout_marginBottom="409dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your future career"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
