@@ -12,6 +12,7 @@
         <activity android:name=".budgetActivity"></activity>
         <activity android:name=".tuitionActivity"></activity>
         <activity android:name=".candyActivity"></activity>
+        <activity android:name=".carsActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
