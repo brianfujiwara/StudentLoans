@@ -9,19 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <EditText
-            android:id="@+id/editText11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Choose a phone"
-
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="85dp" />
-
-
         <RadioGroup
             android:id="@+id/radioGroup2"
             android:layout_width="153dp"
@@ -35,18 +22,16 @@
                 android:id="@+id/apple"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:checked="false"
+                android:onClick="enterPhones"
                 android:text="Apple 11 Pro Max" />
-
 
             <RadioButton
                 android:id="@+id/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:onClick="enterPhones"
                 android:text="Samsung S 10" />
-
         </RadioGroup>
 
         <Button
@@ -81,9 +66,4 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

@@ -38,7 +38,7 @@ public class candyActivity extends tuitionActivity {
     }
 
 
-    public void madeChoice(View v){
+    public void enterCandy(View v){
         if(snickers.isChecked())
             theKey = "snickers";
         else if(mm.isChecked())

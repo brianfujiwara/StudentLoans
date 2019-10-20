@@ -6,10 +6,6 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import java.util.HashMap;
-
 public class carsActivity extends tuitionActivity {
 
     //private String confirm;
@@ -84,5 +80,10 @@ public class carsActivity extends tuitionActivity {
             }
 
             this.dispEquiv();
+    }
+
+    public void toPets(View v){
+        Intent intent = new Intent(this, petsActivity.class);
+        startActivity(intent);
     }
 }
