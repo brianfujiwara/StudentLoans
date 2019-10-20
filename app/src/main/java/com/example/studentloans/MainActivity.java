@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void tuition(View v){
-        Intent intent = new Intent(this, tuitonActivity.class);
+        Intent intent = new Intent(this, tuitionActivity.class);
         startActivity(intent);
     }
 
