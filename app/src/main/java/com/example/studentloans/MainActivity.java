@@ -22,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void yolo(){
+
+        /////dfjklsdjfl
+
+    }
+
 
 
     public void tuition(View v){
