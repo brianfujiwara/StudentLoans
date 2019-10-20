@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".budgetActivity"></activity>
-        <activity android:name=".tuitonActivity"></activity>
+        <activity android:name=".tuitionActivity"></activity>
+        <activity android:name=".candyActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
