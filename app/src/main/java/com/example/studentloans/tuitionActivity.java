@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import java.util.*;
 
-public class TuitionActivity extends AppCompatActivity{
+public class tuitionActivity extends AppCompatActivity{
 
     private TextView tuit;
     public double tuition;
